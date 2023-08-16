@@ -1,0 +1,43 @@
+.modalContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border-radius: 16px;
+}
+
+.closeButton {
+    right: 1rem;
+    padding: 0.5rem;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: 16px;
+    align-self: flex-start;
+}
+
+.modalBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.sliderContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+
+

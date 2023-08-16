@@ -1,0 +1,83 @@
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poly&display=swap");
+
+/* ===
+RESET CODE 
+=== */
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  background-image: url(../public/image/bodyImage.png);
+  background-position: center;
+  background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+/* ===
+PROJECT VARIABLES
+=== */
+
+:root {
+  /* background color */
+
+  --bg-main: rgba(98, 32, 72, 0.8);
+  --bg-border: #bf6715;
+  --bg-btn: #ffffff80;
+  --bg-gradient: linear-gradient(
+    to right,
+    rgb(90, 24, 76),
+    rgb(177, 93, 32),
+    rgb(81, 111, 163)
+  );
+
+  /* font color */
+  --text-dark: #000;
+  --text-light: #fff;
+}
+
+/* ===
+REUSABLE PROPORTY
+=== */
+
+.cta {
+  display: inline-block;
+  background-color: var(--bg-btn);
+  padding: 0.8rem 3rem;
+  text-decoration: none;
+  color: var(--text-dark);
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 100vw;
+  border: 2px solid var(--bg-border);
+  transition: all 0.4s ease-in-out;
+}
+
+.cta:hover {
+  background-color: var(--text-light);
+  letter-spacing: 0.1px;
+}

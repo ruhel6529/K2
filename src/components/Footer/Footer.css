@@ -1,0 +1,49 @@
+.footerSection {
+  background-color: var(--bg-main);
+  padding: 1rem 2rem;
+  display: flex;
+}
+
+.footerSection .footerList {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footerSection .footerList .list ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  color: #fff;
+}
+
+.footerSection .footerList .list ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footerSection .footerList .Brands ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  color: #fff;
+}
+
+.footerSection .footerList .Brands ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+@media (max-width: 992px) {
+  .footerSection .footerBrand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .footerSection .footerList {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,15 @@
+.form-input {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    border-width: 0px !important;
+    border-radius: 16px !important;
+    padding: 10px !important;
+}
+
+.form-button {
+
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    border-width: 0px !important;
+    border-radius: 16px !important;
+    padding: 10px !important;
+}
+

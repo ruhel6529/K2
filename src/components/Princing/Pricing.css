@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+.pricingSection {
+  margin-bottom: 100px;
+}
+
+.pricingSection .sectionHeading {
+  text-align: center;
+}
+
+.pricingSection .sectionHeading .sectionTitle {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.pricingSection .sectionHeading .subTitle {
+  font-size: 1.7rem;
+}
+
+.pricingSection .sectionHeading .subTitle span {
+  background: var(--bg-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pricingSection .priceCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px;
+  width: 370px;
+  height: 455px;
+  flex-shrink: 0;
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 35px;
+  box-shadow: 4px 4px 4px 0px rgba(255, 255, 255, 0.22) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(50px);
+}
+
+.pricingSection .pricingRow {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.pricingSection .cardHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.pricingSection .cardHeading .text {
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  background: var(--bg-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pricingSection .priceCard .priceTitle {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34.5px;
+  text-align: left;
+}
+
+.pricingSection .priceCard .price {
+  display: flex;
+  align-items: flex-start;
+  margin-top: -20px; /* adjust this value according to your needs */
+  
+}
+
+
+.pricingSection .priceCard .price h5 {
+  color: #2D3436;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px; 
+  letter-spacing: -1px;
+}
+
+.pricingSection .priceCard .price .priceText {
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 1.5rem;
+}
+
+.pricingSection .priceCard .buttonContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.pricingSection .priceCard .priceBtn {
+  width: 213px;
+  height: 34px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.pricingSection .priceCard .priceBtn .cta {
+  border-radius: 70px;
+  border: 5px solid #BF6715;
+  background: rgba(237, 241, 255, 0.70);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25), 4px 4px 6px 0px rgba(255, 255, 255, 0.40) inset;
+  font-size: smaller;
+
+}
+
+.pricingSection .priceCard .priceText {
+  font-size: 1.5rem;
+}
+.pricingSection .priceCard .price .priceText {
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-left: 1rem;
+}
+.pricingSection .priceCard .list {
+  list-style: none;
+}
+
+.pricingSection .priceCard .list li {
+  margin-bottom: 1rem;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.pricingSection .priceCard .list li img {
+  margin-right: 1rem;
+  padding-top: 0.1rem;
+}
+
+@media (max-width: 992px) {
+  .pricingSection .priceCard {
+    margin-bottom: 2rem;
+  }
+}

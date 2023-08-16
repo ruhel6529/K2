@@ -1,0 +1,81 @@
+.createSection {
+  background-color: var(--bg-main);
+  padding: 5rem 0;
+  margin-bottom: 100px;
+  
+  /* glassmorphism effect */
+  background: rgba(255, 255, 255, 0.22); /* lower opacity for more transparency */
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  box-shadow: 4px 4px 4px 0px rgba(255, 255, 255, 0.22) inset;
+  width: 1440px;
+  height: 675px;
+  flex-shrink: 0;
+}
+
+.createSection .mainRow {
+  justify-content: center;
+  align-items: center;
+}
+
+.createSection .sectionBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.createSection .content .sectionTitle {
+  font-weight: 700;
+  color: var(--text-light);
+}
+
+.createSection .galleryRow {
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+
+.createSection .galleryImage {
+  overflow: hidden;
+  height: 350px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  transition: all 1s ease-in-out;
+}
+
+.createSection .gallery1 {
+  background-image: url(../../../public/image/g1.png);
+}
+
+.createSection .gallery1:hover {
+  background-image: url(../../../public/image/g1_1.png);
+}
+
+.createSection .gallery2 {
+  background-image: url(../../../public/image/g2.png);
+}
+
+.createSection .gallery2:hover {
+  background-image: url(../../../public/image/g2_2.png);
+}
+
+.createSection .gallery3 {
+  background-image: url(../../../public/image/g3.png);
+}
+
+.createSection .gallery3:hover {
+  background-image: url(../../../public/image/g3_3.png);
+}
+
+@media (max-width: 992px) {
+  .createSection .content .sectionTitle {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .createSection .galleryImage {
+    margin-bottom: 1rem;
+  }
+}

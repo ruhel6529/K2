@@ -1,0 +1,42 @@
+.heroSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  background-image: url(../../../public/image/heroImage2.gif);
+  background-position: center;
+  background-size: cover;
+}
+
+.heroSection .heroContent {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.heroSection .heroContent .heroTitle {
+  font-size: 4rem;
+  color: var(--text-light);
+  font-family: "Poly", serif;
+}
+
+.heroSection .heroContent .heroTitle span {
+  font-family: "Roboto", sans-serif;
+  display: block;
+  font-weight: 700;
+}
+
+.heroSection .heroContent .text {
+  color: var(--text-light);
+  font-size: 1.3rem;
+}
+
+@media (max-width: 992px) {
+  .heroSection .heroContent .heroTitle {
+    font-size: 2rem;
+  }
+}
