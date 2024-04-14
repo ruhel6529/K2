@@ -1,0 +1,19 @@
+
+.resizable-box {
+    position: absolute;
+    border: 2px solid #000;
+    cursor: nwse-resize;
+}
+
+.uploadButton{
+    width: 100px;
+    padding: 2px;
+    border-radius: 25px;
+    background-color: #edf1ff;
+    color: black;
+    border: 3px solid #581449;
+
+
+}
+
+

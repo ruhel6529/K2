@@ -1,0 +1,100 @@
+.imageContainer {
+    position: relative;
+}
+
+.dropdown {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    z-index: 1;
+}
+
+.closeButton {
+    right: 1rem;
+    padding: 0.5rem;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: 16px;
+    align-self: flex-start;
+}
+
+.dropdownButton {
+    background-color: transparent;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    z-index: 1;
+}
+
+.dropdownContent a {
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdownContent a:hover {
+    background-color: #f1f1f1;
+
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+
+}
+
+.modalContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border-radius: 16px;
+}
+
+.closeButton {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.5rem;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.modalBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.sliderContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+
+

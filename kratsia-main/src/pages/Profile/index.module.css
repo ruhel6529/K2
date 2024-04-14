@@ -1,0 +1,21 @@
+/* Your main container for the three elements */
+.productsContainer {
+    flex-direction: row;
+    display: flex;
+    margin-top: 8px;
+    align-content: flex-start;
+    overflow-wrap: anywhere;
+    flex-wrap: wrap;
+    /* Other styles for container */
+}
+
+
+
+/* Styling for each element within the container */
+.element {
+    /* Any other styles you have for the elements */
+}
+
+/* For small screens (e.g., mobile phones) */
+
+
